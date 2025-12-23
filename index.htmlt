@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAIATECH | Tecnologia que Reconstrói Caminhos</title>
+<meta name="description" content="GAIATECH desenvolve soluções tecnológicas inteligentes para governos, empresas e instituições com foco em impacto social, transparência e inovação.">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7f8;
+    color: #1f2d3d;
+}
+header {
+    background: linear-gradient(135deg, #0a7c66, #0fb9b1);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.6em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+    max-width: 900px;
+    margin: auto;
+}
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+h2 {
+    color: #0a7c66;
+    margin-bottom: 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.card h3 {
+    margin-top: 0;
+    color: #0fb9b1;
+}
+footer {
+    background: #1f2d3d;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+.cta {
+    background: #0a7c66;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.cta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 28px;
+    background: #0fb9b1;
+    color: #003b33;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>GAIATECH</h1>
+    <p>Tecnologia que Reconstrói Caminhos</p>
+    <p>Soluções inteligentes para governos, empresas e instituições com foco em impacto real.</p>
+</header>
+
+<section>
+    <h2>Quem Somos</h2>
+    <p>
+        A GAIATECH desenvolve soluções digitais estratégicas para governos, empresas e organizações
+        que precisam de eficiência, transparência e impacto social mensurável.
+    </p>
+</section>
+
+<section>
+    <h2>Projetos Estratégicos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Transparência Global</h3>
+            <p>Sistema internacional de prevenção, investigação e gestão de denúncias.</p>
+        </div>
+        <div class="card">
+            <h3>GAIA Prison</h3>
+            <p>Gestão penitenciária inteligente, segurança integrada e ressocialização digital.</p>
+        </div>
+        <div class="card">
+            <h3>Gaia Comunitário</h3>
+            <p>Plataforma de fortalecimento comunitário e desenvolvimento territorial.</p>
+        </div>
+    </div>
+</section>
+
+<div class="cta">
+    <h2>Entre em Contato</h2>
+    <a href="mailto:reinaldoadeodato@gmail.com">Falar com a GAIATECH</a>
+</div>
+
+<footer>
+    <p>© 2026 GAIATECH HUB</p>
+</footer>
+
+</body>
+</html>
